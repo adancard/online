@@ -1,0 +1,197 @@
+body{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+    color:white ;
+    font-family: poppinsregular;
+    overflow-x: hidden;
+
+}
+
+header{
+
+    /* border: solid red 2px; */
+    text-align: center;
+    
+}
+
+.container{
+
+    margin-right:  20px;
+    display: flex;
+    padding: 20px;
+
+}
+
+nav{
+
+    /* border: solid red 2px; */
+   float: left;
+   width: 30%;
+   height: auto;
+   padding: 35px;
+   text-align: center;
+
+}
+
+.h11{
+    /* border: solid red 2px; */
+   margin-left: 35px;
+}
+
+nav ul{
+    /* border: solid red 2px;  */
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    width: 110%;
+
+}
+
+section{
+
+    padding: 20px;
+    border: solid white 2px;
+    margin-right: 60px;
+
+}
+
+article{
+    /* border: solid red 2px; */
+    float: left;
+    padding: 30px;
+    width: 57%;
+    height: 100px;
+
+}
+
+footer{
+
+    text-align: center;
+    background: beige;
+    color: black;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+li{
+
+    margin: 15px;
+
+}
+
+a:hover{
+
+    transition: 0.5s;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #725AC1;
+
+}
+
+a:active{
+    text-decoration: none;
+}
+
+p{
+
+    font-family: poppinsmedium;
+    /* border: solid red 2px; */
+    text-align: left;
+
+}
+
+.container2{
+    /* border: solid green 2px; */
+    width: 49%;
+    margin: auto;
+   
+}
+
+.a1{
+    text-align: center;
+    margin: auto;
+}
+
+.p2{
+    
+    text-align: center;
+
+}
+
+@media(max-width:500px){
+
+    .container{
+
+        flex-direction: column;
+    
+    }
+
+    nav, article{
+
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+
+    }
+
+    section{
+
+        flex-direction: column;
+        width: 96%;
+
+    }
+
+    nav ul{
+
+        text-align: left;
+        width: 140%;
+
+    }
+
+    p{
+
+        text-align: left;
+        /* border: solid red 2px;   */
+        width: 150%;
+
+    }
+
+    .p1111{
+
+        font-family: poppinsmedium;
+        /* border:  solid red 2px; */
+        width: 100%;
+
+    }
+
+    .p2{
+
+        /* border: solid red 2px; */
+        text-align: center;
+        width: 100%;
+
+    }
+
+    footer{
+
+        width: 107%;
+
+    }
+
+
+}
