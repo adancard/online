@@ -143,20 +143,15 @@ p{
 
     nav, article{
 
+        flex-direction: column;
         width: 70%;
         height: auto;
 
     }
 
-    aside{
-
-        flex-basis: auto;
-        margin-top: 60px;
-
-    }
-
     section{
 
+        flex-direction: column;
         width: 96%;
 
     }
