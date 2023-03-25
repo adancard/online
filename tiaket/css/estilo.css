@@ -133,7 +133,7 @@ p{
 
 }
 
-@media(max-width:500px){
+@media(max-width:490px){
 
     .container{
 
@@ -192,6 +192,5 @@ p{
         width: 107%;
 
     }
-
 
 }
