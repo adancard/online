@@ -170,7 +170,7 @@ p{
 
         /* border: solid red 2px; */
         margin: auto;
-        padding: 20px;
+        padding: 10px;
         width: 80%;
         text-align: left;
         display: flex;
@@ -195,6 +195,7 @@ p{
         font-family: poppinsmedium;
         /* border:  solid red 2px; */
         width: 100%;
+        text-align: left;
 
     }
 
@@ -239,6 +240,13 @@ p{
     .titulo{
 
         text-align: center;
+
+    }
+
+    .titulo2{
+
+        /* border:  solid red 2px; */
+        text-align: left;
 
     }
 
