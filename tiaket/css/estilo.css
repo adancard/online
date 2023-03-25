@@ -38,7 +38,7 @@ nav{
 
 .h11{
     /* border: solid red 2px; */
-   margin-left: 35px;
+   margin-left: 45px;
 }
 
 nav ul{
@@ -135,6 +135,16 @@ p{
 
 @media(max-width:490px){
 
+
+    .h11{
+
+        /* border: solid red 2px; */
+        display: flex;
+        margin-right:  100px;
+        margin: auto;
+
+    }
+
     .container{
 
         flex-direction: column;
@@ -144,7 +154,7 @@ p{
     nav{
 
         flex-direction: column;
-        width: 70%;
+        width: auto;
         height: auto;
 
     }
@@ -163,6 +173,7 @@ p{
 
         /* border: solid red 2px; */
         text-align: left;
+        width: auto;
 
     }
 
@@ -231,9 +242,10 @@ p{
 
     article{
 
+     /* border:  solid red 2px; */
      flex-direction: column;
      text-align: center;
-     width: 90%;
+     width: auto;
      display: flex;
      height: 100%;
         
@@ -241,7 +253,6 @@ p{
     }
 
     .titulo{
-
         text-align: center;
 
     }
@@ -251,6 +262,7 @@ p{
         /* border:  solid red 2px; */
         text-align: left;
         margin: auto;
+        width: auto;
 
     }
 
