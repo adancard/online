@@ -116,7 +116,7 @@ p{
 }
 
 .container2{
-    border: solid green 2px;
+    /* border: solid green 2px; */
     width: 30%;
     margin: auto;
     text-align: center;
