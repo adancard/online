@@ -1,47 +1,47 @@
-body{
+body {
 
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
     background-color: rgb(34, 34, 34);
-    color:white ;
+    color: white;
     font-family: poppinsregular;
     overflow-x: hidden;
 
 }
 
-header{
+header {
 
     /* border: solid red 2px; */
     text-align: center;
-    
+
 }
 
-.container{
+.container {
 
-    margin-right:  20px;
+    margin-right: 20px;
     display: flex;
     padding: 20px;
 
 }
 
-nav{
+nav {
 
     /* border: solid red 2px; */
-   float: left;
-   width: 30%;
-   height: auto;
-   padding: 35px;
-   text-align: center;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 35px;
+    text-align: center;
 
 }
 
-.h11{
+.h11 {
     /* border: solid red 2px; */
-   margin-left: 55px;
+    margin-left: 55px;
 }
 
-nav ul{
+nav ul {
     /* border: solid red 2px;  */
     text-align: center;
     list-style: none;
@@ -50,7 +50,7 @@ nav ul{
 
 }
 
-section{
+section {
 
     padding: 20px;
     border: solid white 2px;
@@ -58,7 +58,7 @@ section{
 
 }
 
-article{
+article {
     /* border: solid red 2px; */
     float: left;
     padding: 30px;
@@ -67,7 +67,7 @@ article{
 
 }
 
-footer{
+footer {
 
     text-align: center;
     background: beige;
@@ -80,20 +80,20 @@ footer{
 
 }
 
-a{
+a {
 
     color: white;
     text-decoration: none;
 
 }
 
-li{
+li {
 
     margin: 15px;
 
 }
 
-a:hover{
+a:hover {
 
     transition: 0.5s;
     border-radius: 15px;
@@ -103,11 +103,12 @@ a:hover{
 
 }
 
-a:active{
+a:active {
     text-decoration: none;
 }
 
-p{
+
+p {
 
     font-family: poppinsmedium;
     /* border: solid red 2px; */
@@ -115,120 +116,94 @@ p{
 
 }
 
-.container2{
+
+
+.container2 {
     /* border: solid green 2px; */
-    width: 30%;
+    width: 100%;
     margin: auto;
-    text-align: center;
-   
+
 }
 
-.a1{
+.a1 {
     text-align: center;
     margin: auto;
 }
 
-.p2{
-    
+.p2 {
+
     text-align: center;
 
 }
 
-@media(max-width:490px){
 
-
-    .container2{
-
-        /* border: solid green 2px; */
-        width: 100%;
-        margin: auto;
-    }
-
-
-    .h11{
-
-        /* border: solid red 2px; */
-        display: flex;
-        margin-right:  100px;
-        margin: auto;
-
-    }
-
-    .container{
-
-        flex-direction: column;
-    
-    }
-
-    nav{
-
-        flex-direction: column;
-        width: auto;
-        height: auto;
-
-    }
-
-    section{
-
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-        height: 100%;
-
-
-    }
-
-    nav ul{
-
-        /* border: solid red 2px; */
-        text-align: left;
-        width: auto;
-
-    }
-
-    nav li{
-
-        /* border: solid red 2px; */
-        margin: auto;
-        padding: 10px;
-        width: 80%;
-        text-align: left;
-        display: flex;
-
-
-    }
-
+@media screen and (max-width:1075px) {
 
     p{
 
         /* border: solid red 2px; */
         text-align: left;
-        width: 80%;
+        width: 50%;
         margin: auto;
         padding: 10px;
-
+        
 
     }
 
     .p1111{
 
-        font-family: poppinsmedium;
-        /* border:  solid red 2px; */
-        width: 100%;
+        width: 100%;    
         text-align: left;
 
-
     }
 
-    .p2{
+    nav{
 
         /* border: solid red 2px; */
-        text-align: center;
-        width: 100%;
+        height: auto;
 
     }
 
-    footer{
+
+
+    nav ul {
+
+        /* border: solid red 2px; */
+        text-align: left;
+        width: auto;
+        height: auto;
+        display: inline-block
+      
+
+        
+
+    }
+
+    nav li {
+
+        /* border: solid red 2px; */
+        display: inline-block;
+        margin: auto;
+        padding: 10px;
+        width: 55%;
+        text-align: left;
+        display: flex;
+        height: auto;
+
+    }
+
+
+    section {
+
+        width: 100%;
+        display: flex;
+        height: auto;
+
+
+    }
+
+
+    footer {
 
         bottom: 0;
         left: 0;
@@ -240,7 +215,109 @@ p{
 
     }
 
-    body{
+    
+}
+
+
+@media(max-width:760px) {
+
+
+    .h11 {
+
+        /* border: solid red 2px; */
+        text-align: center;
+        margin: auto;
+        
+
+    }
+
+    .container {
+
+        flex-direction: column;
+
+    }
+
+    nav {
+
+        flex-direction: column;
+        width: auto;
+        height: auto;
+
+    }
+
+    section {
+
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        height: 100%;
+
+
+    }
+
+    nav ul {
+
+        /* border: solid red 2px; */
+        text-align: left;
+        width: auto;
+
+    }
+
+    nav li {
+
+        /* border: solid red 2px; */
+        margin: auto;
+        padding: 10px;
+        width: 80%;
+        text-align: left;
+        display: flex;
+
+
+    }
+
+
+    p {
+
+        /* border: solid red 2px; */
+        text-align: left;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+
+
+    }
+
+    .p1111 {
+
+        font-family: poppinsmedium;
+        /* border:  solid red 2px; */
+        width: 100%;
+        text-align: left;
+
+
+    }
+
+    .p2 {
+
+        /* border: solid red 2px; */
+        text-align: center;
+        width: 100%;
+
+    }
+
+    footer {
+
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    body {
 
         /* border: solid red 2px; */
         width: 90%;
@@ -249,24 +326,24 @@ p{
 
     }
 
-    article{
+    article {
 
-     /* border:  solid red 2px; */
-     flex-direction: column;
-     text-align: center;
-     width: auto;
-     display: flex;
-     height: 100%;
-        
+        /* border:  solid red 2px; */
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        display: flex;
+        height: auto;
+
 
     }
 
-    .titulo{
+    .titulo {
         text-align: center;
 
     }
 
-    .titulo2{
+    .titulo2 {
 
         /* border:  solid red 2px; */
         text-align: left;
@@ -275,5 +352,6 @@ p{
 
     }
 
-
 }
+
+
